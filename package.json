@@ -1,0 +1,26 @@
+{
+  "name": "envguard",
+  "version": "0.1.0",
+  "description": "CLI that checks .env.example against your .env and the variables your code actually reads.",
+  "type": "module",
+  "bin": {
+    "envguard": "./bin/envguard.js"
+  },
+  "files": ["bin", "src"],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": ["env", "dotenv", "cli", "environment-variables", "ci", "lint"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srmatheusbr221/envguard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/srmatheusbr221/envguard/issues"
+  },
+  "homepage": "https://github.com/srmatheusbr221/envguard#readme",
+  "license": "MIT"
+}
