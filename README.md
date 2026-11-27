@@ -91,10 +91,6 @@ npm test
 
 See [CONTRIBUTING.md](CONTRIBUTING.md).
 
-## About AI assistance
-
-I used an AI coding assistant (Claude Code) while writing this, then read, ran and edited the result. The test suite is there so you don't have to take my word for any of it.
-
 ## License
 
 MIT

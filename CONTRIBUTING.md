@@ -31,7 +31,3 @@ Node 20+, no dependencies to install.
 ## Scanner rules of thumb
 
 The scanner is deliberately regex based. If you add a pattern, add a test for what it should match **and** one for a lookalike that it must not match (see `scanText: ignores things that merely look similar`). False positives annoy people more than missing a rare syntax.
-
-## AI tools
-
-Use whatever helps you. Read and run what it produced before you open the PR, and say which tool it was in the PR description.
